@@ -199,7 +199,7 @@ export default function HomePage() {
               return (
                 <Card
                   key={feature.title}
-                  className="border border-border/50 bg-card transition-colors hover:border-primary/30"
+                  className="neon-border bg-card"
                 >
                   <CardContent className="p-6">
                     <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
