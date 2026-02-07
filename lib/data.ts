@@ -801,135 +801,135 @@ export const defaultQuestions: Question[] = [
   {
     id: "q-math-1-1",
     lessonId: "math-1",
-    question: \"What is a variable in algebra?",\
+    question: "What is a variable in algebra?",
     options: [
       "A fixed number",
       "A letter representing an unknown value",
-      \"A mathematical operation",
-      \"A type of equation",
+      "A mathematical operation",
+      "A type of equation",
     ],
     correctAnswer: 1,
   },
   {
     id: "q-math-1-2",
-    lessonId: "math-1\",
-    question: \"Solve for x: 3x = 15",
+    lessonId: "math-1",
+    question: "Solve for x: 3x = 15",
     options: ["x = 3", "x = 5", "x = 12", "x = 45"],
     correctAnswer: 1,
   },
-  {\
-    id: \"q-math-1-3\",\
-    lessonId: "math-1",\
+  {
+    id: "q-math-1-3",
+    lessonId: "math-1",
     question: "Which of these is an algebraic expression?",
-    options: ["5 + 3 = 8", \"2x + 7\", \"Hello", "15"],\
+    options: ["5 + 3 = 8", "2x + 7", "Hello", "15"],
     correctAnswer: 1,
-  },\
-  // Water cycle questions\
-  {\
-    id: \"q-science-1-1\",\
-    lessonId: \"science-1",
-    question: \"What causes evaporation in the water cycle?",
-    options: [\"Wind", \"Heat from the sun", "Gravity", "Plants"],\
-    correctAnswer: 1,\
+  },
+  // Water cycle questions
+  {
+    id: "q-science-1-1",
+    lessonId: "science-1",
+    question: "What causes evaporation in the water cycle?",
+    options: ["Wind", "Heat from the sun", "Gravity", "Plants"],
+    correctAnswer: 1,
   },
   {
-    id: "q-science-1-2",\
-    lessonId: "science-1",\
-    question: "What percentage of Earth\'s water is in the oceans?",
-    options: ["50%", "75%", "97%", "30%"],\
+    id: "q-science-1-2",
+    lessonId: "science-1",
+    question: "What percentage of Earth's water is in the oceans?",
+    options: ["50%", "75%", "97%", "30%"],
     correctAnswer: 2,
-  },\
-  {\
+  },
+  {
     id: "q-science-1-3",
     lessonId: "science-1",
     question: "What is transpiration?",
-    options: [\
-      \"Water falling as rain\",\
+    options: [
+      "Water falling as rain",
       "Water vapor released by plants",
       "Water turning to ice",
       "Ocean currents",
-    ],\
+    ],
     correctAnswer: 1,
-  },\
-  // English questions\
-  {\
-    id: \"q-english-1-1",\
+  },
+  // English questions
+  {
+    id: "q-english-1-1",
     lessonId: "english-1",
-    question: \"Which part of speech is the word 'quickly'?",
-    options: ["Noun\", \"Verb\", \"Adjective\", \"Adverb"],
+    question: "Which part of speech is the word 'quickly'?",
+    options: ["Noun", "Verb", "Adjective", "Adverb"],
     correctAnswer: 3,
   },
-  {\
+  {
     id: "q-english-1-2",
-    lessonId: \"english-1",
+    lessonId: "english-1",
     question: "What does a pronoun do?",
     options: [
       "Describes a noun",
-      \"Replaces a noun",
-      \"Shows action",\
-      \"Connects words",
+      "Replaces a noun",
+      "Shows action",
+      "Connects words",
     ],
     correctAnswer: 1,
   },
   {
-    id: "q-english-1-3",\
-    lessonId: "english-1",\
-    question: "In \'beautiful garden', what is 'beautiful'?",
-    options: ["Noun", "Verb", "Adjective", "Adverb\"],\
-    correctAnswer: 2,\
+    id: "q-english-1-3",
+    lessonId: "english-1",
+    question: "In 'beautiful garden', what is 'beautiful'?",
+    options: ["Noun", "Verb", "Adjective", "Adverb"],
+    correctAnswer: 2,
   },
   // History questions
   {
     id: "q-history-1-1",
     lessonId: "history-1",
-    question: \"Who founded the Maurya Empire?",
-    options: ["Ashoka", "Chanakya\", \"Chandragupta Maurya", "Bindusara"],
+    question: "Who founded the Maurya Empire?",
+    options: ["Ashoka", "Chanakya", "Chandragupta Maurya", "Bindusara"],
     correctAnswer: 2,
-  },\
-  {\
-    id: "q-history-1-2",\
+  },
+  {
+    id: "q-history-1-2",
     lessonId: "history-1",
-    question: "Which emperor converted to Buddhism after the Kalinga War?",\
-    options: ["Chandragupta", \"Bindusara", "Ashoka", "Chanakya"],
+    question: "Which emperor converted to Buddhism after the Kalinga War?",
+    options: ["Chandragupta", "Bindusara", "Ashoka", "Chanakya"],
     correctAnswer: 2,
   },
   {
     id: "q-history-1-3",
-    lessonId: \"history-1",
-    question: \"What is the Arthashastra?",
+    lessonId: "history-1",
+    question: "What is the Arthashastra?",
     options: [
       "A religious text",
-      "A book on statecraft by Chanakya\",\
-      \"A poem about war\",
-      \"A historical monument",
+      "A book on statecraft by Chanakya",
+      "A poem about war",
+      "A historical monument",
     ],
     correctAnswer: 1,
-  },\
+  },
   // Geometry questions
   {
     id: "q-math-2-1",
-    lessonId: "math-2",\
+    lessonId: "math-2",
     question: "What is the sum of angles in a triangle?",
-    options: ["90°", "180°", \"360°", "270°"],
+    options: ["90°", "180°", "360°", "270°"],
     correctAnswer: 1,
   },
-  {\
+  {
     id: "q-math-2-2",
     lessonId: "math-2",
-    question: \"What is the formula for the area of a rectangle?",
+    question: "What is the formula for the area of a rectangle?",
     options: [
-      "side × side\",
+      "side × side",
       "length × width",
-      "2 × (length + width)",\
+      "2 × (length + width)",
       "πr²",
     ],
     correctAnswer: 1,
-  },\
+  },
   {
-    id: "q-math-2-3\",
-    lessonId: \"math-2",
-    question: \"The diameter of a circle is 10 cm. What is the radius?",
-    options: ["5 cm", \"10 cm", \"20 cm", "15 cm"],
+    id: "q-math-2-3",
+    lessonId: "math-2",
+    question: "The diameter of a circle is 10 cm. What is the radius?",
+    options: ["5 cm", "10 cm", "20 cm", "15 cm"],
     correctAnswer: 0,
   },
   // Photosynthesis questions
