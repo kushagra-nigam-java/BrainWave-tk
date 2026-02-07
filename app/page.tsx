@@ -266,7 +266,12 @@ export default function HomePage() {
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            BrainWave - Bringing education to every corner of India                                                                                                             Created for a bright future                                                                  By Kushagra and Divya                                                                                                                                                                                                                                                                                                                                                                                              
+            <pre>
+
+            BrainWave - Bringing education to every corner of India                                                                                          
+            Created for a bright futue
+            By Kushagra and Divya
+                                                                                                </pre>                           
           </p>
         </div>
       </footer>

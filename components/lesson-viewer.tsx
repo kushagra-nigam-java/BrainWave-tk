@@ -90,6 +90,21 @@ export function LessonViewer({ lesson, onBack }: LessonViewerProps) {
           <h1 className="text-3xl font-bold text-foreground md:text-4xl">
             {lesson.title}
           </h1>
+          
+          {/* NCERT Information */}
+          <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+            <div>
+              <span className="font-semibold text-foreground">NCERT Topic:</span> {lesson.ncertTopic}
+            </div>
+            <div>
+              <span className="font-semibold text-foreground">{lesson.chapter}</span>
+            </div>
+            {lesson.syllabus && (
+              <div>
+                <span className="font-semibold text-foreground">Syllabus Coverage:</span> {lesson.syllabus}
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Lesson Content */}

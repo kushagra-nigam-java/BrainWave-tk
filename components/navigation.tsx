@@ -4,13 +4,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Home, BookOpen, HelpCircle, BarChart3 } from "lucide-react";
+import { Home, BookOpen, HelpCircle, BarChart3, BookMarked } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/lessons", label: "Lessons", icon: BookOpen },
   { href: "/quiz", label: "Quiz", icon: HelpCircle },
   { href: "/progress", label: "Progress", icon: BarChart3 },
+  { href: "/syllabus", label: "Syllabus", icon: BookMarked },
 ];
 
 export function Navigation() {

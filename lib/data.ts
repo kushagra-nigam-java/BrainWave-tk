@@ -6,7 +6,10 @@ export const defaultLessons: Lesson[] = [
     title: "Introduction to Algebra",
     subject: "Mathematics",
     grade: "Class 8",
+    ncertTopic: "Linear Equations in One Variable",
+    chapter: "Chapter 2",
     duration: "15 min",
+    syllabus: "Understanding variables, constants, and linear equations; solving simple equations",
     content: `Algebra is a branch of mathematics that uses symbols and letters to represent numbers and quantities in formulas and equations.
 
 **Key Concepts:**
@@ -29,7 +32,10 @@ Step 2: Divide both sides by 2: x = 4
     title: "The Water Cycle",
     subject: "Science",
     grade: "Class 6",
+    ncertTopic: "Water: A Precious Resource",
+    chapter: "Chapter 14",
     duration: "12 min",
+    syllabus: "Understanding evaporation, condensation, precipitation, and collection; role of water in human life",
     content: `The water cycle, also known as the hydrological cycle, describes the continuous movement of water on, above, and below the surface of the Earth.
 
 **Main Stages:**
@@ -56,7 +62,10 @@ Step 2: Divide both sides by 2: x = 4
     title: "Parts of Speech",
     subject: "English",
     grade: "Class 7",
+    ncertTopic: "Grammar - Parts of Speech",
+    chapter: "Unit 1",
     duration: "10 min",
+    syllabus: "Eight parts of speech; usage of nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections in sentences",
     content: `Parts of speech are categories that describe the function of words in sentences. Understanding them helps you write better and understand grammar rules.
 
 **The 8 Parts of Speech:**
@@ -93,7 +102,10 @@ Step 2: Divide both sides by 2: x = 4
     title: "The Maurya Empire",
     subject: "Social Studies",
     grade: "Class 6",
+    ncertTopic: "Ancient Empires - The Mauryas",
+    chapter: "Chapter 6",
     duration: "14 min",
+    syllabus: "Maurya Empire timeline; rule of Chandragupta, Bindusara, and Ashoka; political organization; Ashoka's edicts and conversion to Buddhism",
     content: `The Maurya Empire was one of the largest and most powerful empires in ancient India, lasting from 322 BCE to 185 BCE.
 
 **Key Rulers:**
@@ -126,7 +138,10 @@ The Lion Capital of Ashoka at Sarnath became India's national emblem.`,
     title: "Geometry Basics",
     subject: "Mathematics",
     grade: "Class 7",
+    ncertTopic: "Basic Geometric Shapes",
+    chapter: "Chapter 5",
     duration: "13 min",
+    syllabus: "Understanding triangles, quadrilaterals, and circles; properties and measurements; perimeter and area calculations",
     content: `Geometry is the study of shapes, sizes, positions, and properties of space. Let's explore the fundamental concepts.
 
 **Basic Shapes:**
