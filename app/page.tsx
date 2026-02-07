@@ -75,7 +75,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-primary">
               <WifiOff className="h-4 w-4" />
-              <span>Offline-First Learning Platform</span>
+              <span>First-Offline Learning Platform</span>
             </div>
 
             <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
@@ -266,7 +266,7 @@ export default function HomePage() {
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            BrainWave - Bringing education to every corner of India
+            BrainWave - Bringing education to every corner of India                                                                                                             Created for a bright future                                                                  By Kushagra and Divya                                                                                                                                                                                                                                                                                                                                                                                              
           </p>
         </div>
       </footer>
