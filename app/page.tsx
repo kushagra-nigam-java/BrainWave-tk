@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Navigation } from "@/components/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -67,6 +68,22 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background pb-20 md:pb-0">
       <Navigation />
+
+      {/* Hero Image Section */}
+      <section className="relative overflow-hidden bg-gradient-to-b from-primary/10 to-background">
+        <div className="container mx-auto px-4 py-8 md:py-12">
+          <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/hero-students.jpg"
+              alt="Students learning together in nature"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
+          </div>
+        </div>
+      </section>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
