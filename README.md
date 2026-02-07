@@ -70,6 +70,6 @@ https://brain-wave-tk.vercel.app/
 
 ## 📦 Run Locally
 
-```bash
+\`\`\`bash
 npm install
 npm run dev
