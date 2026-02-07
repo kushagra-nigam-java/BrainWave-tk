@@ -282,14 +282,11 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-muted-foreground">
-            <pre>
-
-            BrainWave - Bringing education to every corner of India                                                                                          
-            Created for a bright futue
-            By Kushagra and Divya
-                                                                                                </pre>                           
-          </p>
+          <div className="text-sm text-muted-foreground space-y-1">
+            <p>BrainWave - Bringing education to every corner of India</p>
+            <p>Created for a bright future</p>
+            <p>By Kushagra and Divya</p>
+          </div>
         </div>
       </footer>
     </div>
