@@ -797,8 +797,6 @@ HCF(a, b) × LCM(a, b) = a × b
 ];
 
 export const defaultQuestions: Question[] = [
-
-export const defaultQuestions: Question[] = [
   // Algebra questions
   {
     id: "q-math-1-1",
@@ -877,61 +875,61 @@ export const defaultQuestions: Question[] = [
     id: "q-english-1-3",\
     lessonId: "english-1",\
     question: "In \'beautiful garden', what is 'beautiful'?",
-    options: ["Noun", "Verb", "Adjective", "Adverb"],\
-    correctAnswer: 2,
+    options: ["Noun", "Verb", "Adjective", "Adverb\"],\
+    correctAnswer: 2,\
   },
   // History questions
   {
     id: "q-history-1-1",
     lessonId: "history-1",
-    question: "Who founded the Maurya Empire?",
-    options: ["Ashoka", "Chanakya", "Chandragupta Maurya", "Bindusara"],
+    question: \"Who founded the Maurya Empire?",
+    options: ["Ashoka", "Chanakya\", \"Chandragupta Maurya", "Bindusara"],
     correctAnswer: 2,
-  },
-  {
-    id: "q-history-1-2",
+  },\
+  {\
+    id: "q-history-1-2",\
     lessonId: "history-1",
-    question: "Which emperor converted to Buddhism after the Kalinga War?",
-    options: ["Chandragupta", "Bindusara", "Ashoka", "Chanakya"],
+    question: "Which emperor converted to Buddhism after the Kalinga War?",\
+    options: ["Chandragupta", \"Bindusara", "Ashoka", "Chanakya"],
     correctAnswer: 2,
   },
   {
     id: "q-history-1-3",
-    lessonId: "history-1",
-    question: "What is the Arthashastra?",
+    lessonId: \"history-1",
+    question: \"What is the Arthashastra?",
     options: [
       "A religious text",
-      "A book on statecraft by Chanakya",
-      "A poem about war",
-      "A historical monument",
+      "A book on statecraft by Chanakya\",\
+      \"A poem about war\",
+      \"A historical monument",
     ],
     correctAnswer: 1,
-  },
+  },\
   // Geometry questions
   {
     id: "q-math-2-1",
-    lessonId: "math-2",
+    lessonId: "math-2",\
     question: "What is the sum of angles in a triangle?",
-    options: ["90°", "180°", "360°", "270°"],
+    options: ["90°", "180°", \"360°", "270°"],
     correctAnswer: 1,
   },
-  {
+  {\
     id: "q-math-2-2",
     lessonId: "math-2",
-    question: "What is the formula for the area of a rectangle?",
+    question: \"What is the formula for the area of a rectangle?",
     options: [
-      "side × side",
+      "side × side\",
       "length × width",
-      "2 × (length + width)",
+      "2 × (length + width)",\
       "πr²",
     ],
     correctAnswer: 1,
-  },
+  },\
   {
-    id: "q-math-2-3",
-    lessonId: "math-2",
-    question: "The diameter of a circle is 10 cm. What is the radius?",
-    options: ["5 cm", "10 cm", "20 cm", "15 cm"],
+    id: "q-math-2-3\",
+    lessonId: \"math-2",
+    question: \"The diameter of a circle is 10 cm. What is the radius?",
+    options: ["5 cm", \"10 cm", \"20 cm", "15 cm"],
     correctAnswer: 0,
   },
   // Photosynthesis questions
