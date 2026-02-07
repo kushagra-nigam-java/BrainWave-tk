@@ -132,11 +132,12 @@
 
 @layer components {
   .neon-border {
-    @apply border border-primary/50 transition-all duration-300 hover:border-primary hover:shadow-lg;
-    box-shadow: 0 0 20px rgba(124, 179, 102, 0.3), inset 0 0 20px rgba(124, 179, 102, 0.1);
+    border: 3px solid;
+    @apply border-primary/60 transition-all duration-300 hover:border-primary hover:shadow-lg;
+    box-shadow: 0 0 25px rgba(124, 179, 102, 0.4), inset 0 0 20px rgba(124, 179, 102, 0.1);
   }
   
   .neon-border:hover {
-    box-shadow: 0 0 30px rgba(124, 179, 102, 0.5), inset 0 0 25px rgba(124, 179, 102, 0.15);
+    box-shadow: 0 0 35px rgba(124, 179, 102, 0.6), inset 0 0 25px rgba(124, 179, 102, 0.15);
   }
 }
