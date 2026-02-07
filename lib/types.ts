@@ -3,8 +3,11 @@ export interface Lesson {
   title: string;
   subject: string;
   grade: string;
+  ncertTopic: string;
+  chapter: string;
   content: string;
   duration: string;
+  syllabus?: string;
 }
 
 export interface Question {

@@ -1,15 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Home, BookOpen, HelpCircle, BarChart3, Zap } from "lucide-react";
+import { Home, BookOpen, HelpCircle, BarChart3, BookMarked } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/lessons", label: "Lessons", icon: BookOpen },
   { href: "/quiz", label: "Quiz", icon: HelpCircle },
   { href: "/progress", label: "Progress", icon: BarChart3 },
+  { href: "/syllabus", label: "Syllabus", icon: BookMarked },
 ];
 
 export function Navigation() {
@@ -20,8 +22,14 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-              <Zap className="h-5 w-5 text-primary-foreground" />
+            <div className="flex h-9 w-9 items-center justify-center rounded-lg overflow-hidden">
+              <Image
+                src="/brainwave-icon.png"
+                alt="BrainWave Logo"
+                width={36}
+                height={36}
+                className="h-9 w-9 object-cover"
+              />
             </div>
             <span className="text-xl font-bold text-foreground">BrainWave</span>
           </Link>

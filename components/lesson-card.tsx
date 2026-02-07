@@ -40,6 +40,15 @@ export function LessonCard({ lesson, onClick }: LessonCardProps) {
           {lesson.title}
         </h3>
 
+        <div className="mb-3 space-y-1 text-sm text-muted-foreground">
+          <div>
+            <span className="font-medium">Topic:</span> {lesson.ncertTopic}
+          </div>
+          <div>
+            <span className="font-medium">{lesson.chapter}</span>
+          </div>
+        </div>
+
         <div className="mb-4 flex items-center gap-4 text-sm text-muted-foreground">
           <span className="flex items-center gap-1">
             <Clock className="h-4 w-4" />

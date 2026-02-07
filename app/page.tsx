@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Navigation } from "@/components/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -68,6 +69,22 @@ export default function HomePage() {
     <div className="min-h-screen bg-background pb-20 md:pb-0">
       <Navigation />
 
+      {/* Hero Image Section */}
+      <section className="relative overflow-hidden bg-gradient-to-b from-primary/10 to-background">
+        <div className="container mx-auto px-4 py-8 md:py-12">
+          <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/hero-students.jpg"
+              alt="Students learning together in nature"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
@@ -75,7 +92,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-primary">
               <WifiOff className="h-4 w-4" />
-              <span>Offline-First Learning Platform</span>
+              <span>First-Offline Learning Platform</span>
             </div>
 
             <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
@@ -182,7 +199,7 @@ export default function HomePage() {
               return (
                 <Card
                   key={feature.title}
-                  className="border-border bg-card transition-colors hover:border-primary/30"
+                  className="neon-border bg-card"
                 >
                   <CardContent className="p-6">
                     <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -265,9 +282,11 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-muted-foreground">
-            BrainWave - Bringing education to every corner of India
-          </p>
+          <div className="text-sm text-muted-foreground space-y-1">
+            <p>BrainWave - Bringing education to every corner of India</p>
+            <p>Created for a bright future</p>
+            <p>By Kushagra and Divya</p>
+          </div>
         </div>
       </footer>
     </div>
